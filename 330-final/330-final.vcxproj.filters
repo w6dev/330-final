@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{202831fa-d19a-479f-97a2-12d8c200b6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{959cbb6c-64b5-4ad7-989d-27b59af4bc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{ffbdd9c0-2b93-4284-a160-013186aa141e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{b0cb01e0-b900-4367-9d9f-82d9cc4bca03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model_objects">
+      <UniqueIdentifier>{9f07715e-e03a-499b-93a8-e5e4def38435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\Model_objects">
+      <UniqueIdentifier>{29fdb219-ae51-4968-8f1c-2e7102db65ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders">
+      <UniqueIdentifier>{0a93b93b-5f92-4470-b90a-9ec6b7c95f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures">
+      <UniqueIdentifier>{edc915c3-10af-4d61-b194-10264d4e12cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\glad">
+      <UniqueIdentifier>{dcb4bf27-29b2-4634-80bd-df46d50b8dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\stb">
+      <UniqueIdentifier>{1c1ab0f0-fadf-4c3d-9c7d-db475c6a9d74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\Link.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\Side_case.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\Steel.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\Watch_Face.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\Window.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\application.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\material.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mesh.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model_objects\Coffee.h">
+      <Filter>Source Files\include\Model_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model_objects\model_objects.h">
+      <Filter>Source Files\include\Model_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model_objects\pen.h">
+      <Filter>Source Files\include\Model_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model_objects\plane.h">
+      <Filter>Source Files\include\Model_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model_objects\portfolio.h">
+      <Filter>Source Files\include\Model_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model_objects\Watch.h">
+      <Filter>Source Files\include\Model_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model_objects\window.h">
+      <Filter>Source Files\include\Model_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="external\shared\stb_image\stb\stb_image.h">
+      <Filter>Source Files\external\stb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Model_objects\Coffee.cpp">
+      <Filter>Source Files\src\Model_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model_objects\pen.cpp">
+      <Filter>Source Files\src\Model_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model_objects\plane.cpp">
+      <Filter>Source Files\src\Model_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model_objects\portfolio.cpp">
+      <Filter>Source Files\src\Model_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model_objects\Watch.cpp">
+      <Filter>Source Files\src\Model_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model_objects\window.cpp">
+      <Filter>Source Files\src\Model_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\application.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\material.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="external\shared\glad\src\glad.c">
+      <Filter>Source Files\external\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="external\shared\stb_image\stb.cpp">
+      <Filter>Source Files\external\stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\mod6.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\mod6.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\mod7.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\mod7.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\texture.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\texture.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
