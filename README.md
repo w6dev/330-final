@@ -4,7 +4,7 @@
 ### What new design skills has your work on the project helped you to craft?
 Luckily, I am very skilled in working in the Cartesian plane. I have programmed CNC machines for over 18 years, and my knowledge of working with coordinates helped me immensely during this course. 
 ### What design process did you follow for your project work?
-During this project, I started simply the scaled-up. I started with a cube, moving it around, changing its color, and adding textures. This helped me when I began to work with more complex shapes.
+During this project, I started simply then scaled-up. I started with a cube, moving it around, changing its color, and adding textures. This helped me when I began to work with more complex shapes.
 ### How could tactics from your design approach be applied in future work?
 The course layout was valuable, requiring us to accomplish a little every week. I built my confidence by seeing the project build a little every week. I may lay out milestones and work to complete them in the future.
 ## How do I approach developing programs? 
