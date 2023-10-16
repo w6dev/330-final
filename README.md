@@ -13,7 +13,7 @@ During the different iterations of my project, I began to modularize as many fun
 ## How has your approach to developing code evolved throughout the milestones that led you to the project’s completion?
 While I modularized as much as possible, passing variables back and forth did cause some problems. I wrote the shaders as single-file functions.
 
-#How can computer science help me in reaching my goals? 
+# How can computer science help me in reaching my goals? 
 ## How do computational graphics and visualizations give you new knowledge and skills to be applied in your future educational pathway?
 In this course, I learned how valuable math is in computer science. Much of the way we manipulated the model was through linear algebra.
 ## How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
